@@ -1,4 +1,4 @@
-//C++ÀàÀàĞÍ
+//C++ç±»ç±»å‹
 #include <iostream>
 
 using namespace std;
@@ -8,7 +8,7 @@ class Dog
 
 };
 
-class Ñ§Éú
+class å­¦ç”Ÿ
 {
 
 };
@@ -17,8 +17,8 @@ int main()
 {
 	int a;
 	Dog b;
-	Ñ§Éú c;
+	å­¦ç”Ÿ c;
 
-	cout << "Hello, Àà!" << endl;
+	cout << "Hello, ç±»!" << endl;
 	return 0;
 }
