@@ -1,4 +1,4 @@
-//C++ 类类型
+//C++类类型
 #include <iostream>
 
 using namespace std;
