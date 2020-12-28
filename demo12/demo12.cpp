@@ -1,24 +1,46 @@
-//C++ç±»ç±»å‹
+//C++ ÀàÀàĞÍ
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-class Dog
+struct Cat //CÓïÑÔÀï¾ÍÓĞstruct£¬C++¼Ì³ĞÁËCÓïÑÔµÄstruct£¬C++µÄstruct±ÈCÓïÑÔstruct¸ü·á¸»£¬ËüºÍclass»ù±¾Ò»Ñù£¬³ıÁËÄ¬ÈÏ·ÃÎÊ¼¶±ğÊÇpublic
 {
-
+	double ÌåÖØ;
+	double Éí¸ß;
 };
 
-class å­¦ç”Ÿ
-{
 
+class Dog
+{
+	//Ã»Ğ´Ä¬ÈÏÊÇË½ÓĞµÄ£¬²»¹ı×îºÃÊÇĞ´ÉÏprivate
+	double ÌåÖØ;
+	double Éí¸ß;
+};//×¢Òâ½áÎ²ÒªÓĞ·ÖºÅ
+
+class Ñ§Éú
+{
+	//Àà³ÉÔ±£ºÊı¾İ³ÉÔ±¡¢³ÉÔ±º¯Êı£¨·ÖÎª¹²ÓĞµÄºÍË½ÓĞµÄ£©
+};
+
+class Sale_item
+{
+public:
+	//ÀàµÄ²Ù×÷£¬Ò²¼´³ÉÔ±º¯ÊıÒ»°ãÊÇ¹²ÓĞµÄ
+private:
+	//ÀàµÄÊı¾İ£¬Ò²¼´Êı¾İ³ÉÔ±Ò»°ãÊÇË½ÓĞµÄ
+	std::string isbn; //ÊéºÅ
+	unsigned units_sold; //ÏúÊÛÊıÁ¿
+	double revenue; //½ğ¶î
 };
 
 int main()
 {
+	double d = 0.0;
 	int a;
 	Dog b;
-	å­¦ç”Ÿ c;
+	Ñ§Éú c;
 
-	cout << "Hello, ç±»!" << endl;
+	cout << "Hello, Àà!" << endl;
 	return 0;
 }
